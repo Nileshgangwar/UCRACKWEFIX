@@ -1,0 +1,162 @@
+.main_container{
+    position: relative;
+    margin: 8% 8%;
+    border: 1px solid black;
+}
+.main_box{
+    display: flex;
+}
+.main_box .box1{
+    margin-right: 35%;
+    margin-left: 14px;
+    margin-top: 11px;
+}
+.gst p{
+    font-weight: bold;
+}
+.gst p span{
+    font-weight: 100;
+}
+.office p{
+    margin: 26px 0;
+}
+.address p{
+    margin-top: -14px;
+    margin-bottom: 25px;
+}
+.email{
+    display: flex;
+}
+.email h3{
+    margin: 0;
+}
+.email p{
+    margin: 2px;
+    font-size: 17px;
+    margin-left: 3px;
+}
+.phone{
+    display: flex;
+}
+.phone h3{
+    margin: 0;
+}
+.phone p{
+    margin: 3px;
+}
+.website{
+    display: flex;
+}
+.website h3{
+    margin: 0;
+}
+.website p{
+    margin: 3px;
+}
+.payment{
+    display: flex;
+}
+.payment p{
+    margin-left: 26px;
+    margin-top: 21px;
+    font-weight: bold;
+}
+.main_box .box2{
+    float: right;
+    position: relative;
+    right: 14px;
+}
+.tex{
+    display: flex;
+}
+.tex p{
+    margin: 22px;
+}
+.date{
+    display: flex;
+}
+.date h3{
+    margin: 0;
+}
+.date h4{
+    margin: 3px;
+    margin-left: 81px;
+}
+.bill{
+    margin-top: 56px;
+}
+.bill h4{
+    font-weight: bold;
+}
+h4 span{
+    font-weight: 500;
+    margin-left: 123px;
+}
+.place{
+    display: flex;
+    margin-top: 95px;
+}
+.place h4{
+    margin-left: 82px;
+}
+.price_table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+.price_table thead tr{
+    background-color: cornflowerblue;
+    text-align: left;
+    font-size: 19px;
+}
+tbody .total{
+    background-color: #c5dfeb;
+}
+.police{
+    margin-top: 44px;
+    display: grid;
+    margin-left: 7px;
+}
+.police h3{
+    margin: 0;
+}
+.copyright{
+    margin-left: 6px;
+    margin-top: 47px;
+    margin-bottom: 23px;
+}
+.copyright .copy h3{
+    margin: 0;
+}
+.add p{
+    margin: 0; 
+}
+.number p{
+    margin: 0; 
+}
+/* .text .old{
+
+} */
+.text .old .old1{
+    display: flex;
+    margin-left: 12px;
+}
+.old .old1 h3{
+    margin: 0;
+}
+.old .old1 h4{
+    margin: 3px;
+}
+.Warranty{
+    display: flex;
+    margin-left: 12px;
+    margin-right: -141px;
+}
+.Warranty h3{
+    margin: 0;
+}
+.Warranty p{
+    margin: 3px;
+    font-weight: 200;
+    margin-left: 15px;
+}
