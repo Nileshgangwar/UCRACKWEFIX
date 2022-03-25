@@ -1,6 +1,9 @@
 .main_container{
     position: relative;
     margin: 8% 8%;
+    
+}
+.container{
     border: 1px solid black;
 }
 .main_box{
@@ -159,4 +162,201 @@ tbody .total{
     margin: 3px;
     font-weight: 200;
     margin-left: 15px;
+}
+@media screen  and (max-width: 1246px){
+    .main_box .box1 {
+        margin-right: 0;
+       
+    }
+}
+@media screen  and (max-width: 546px){
+    .main_container {
+        margin: 8% 4%;
+    }
+    .main_box .box1 {
+        margin-left: 1px;
+       
+    }
+    .img {
+        width: 100px;
+    }
+    .gst p {
+        font-size: 12px;
+    }
+    .office {
+        font-size: 11px;
+    }
+    .office h3 {
+        font-size: 12px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .office p {
+        margin: 7px 0;
+    }
+    .address {
+        font-size: 12px;
+    }
+    .email {
+        font-size: 11px;
+    }
+    .email p {
+        margin: -3px;
+        font-size: 15px;
+        margin-left: 4px;
+    }
+    .phone {
+        font-size: 12px;
+    }
+    .website {
+        font-size: 12px;
+    }
+    .payment {
+        font-size: 12px;
+    }
+    .payment p {
+        margin-top: 15px;
+    }
+    .tex {
+        font-size: 11px;
+    }
+    .tex p {
+        margin: 14px;
+    }
+    .date {
+        font-size: 11px;
+    }
+    .date h4 {
+        margin-left: 53px;
+    }
+    .amount h3 {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+    }
+    .bill {
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .bill h4 {
+        margin: 0;
+        display: flex;
+    }
+    h4 span {
+        margin-left: 36px;
+    }
+    .h3 {
+        font-size: 12px;
+    }
+    .place {
+        margin-top: 44px;
+        font-size: 12px;
+    }
+    .place h4 {
+        margin-left: 21px;
+    }
+    .price_table thead tr {
+        font-size: 12px;
+    }
+    .tbody tr td {
+        font-size: 11px;
+    }
+    .text .old .old1 {
+        font-size: 12px;
+    }
+    .Warranty {
+        font-size: 12px;
+    }
+    .police {
+        margin-top: 24px;
+        font-size: 12px;
+    }
+    .copyright {
+        margin-top: 22px;
+        font-size: 12px;
+    }
+}
+@media screen  and (max-width: 416px){
+    .main_container {
+        margin: 0;
+    }
+}
+@media screen  and (max-width: 393px){
+    .gst p {
+        font-size: 10px;
+    }
+    .office {
+        font-size: 10px;
+    }
+    .address {
+        font-size: 10px;
+    }
+    .email {
+        font-size: 10px;
+    }
+    .email p {
+        font-size: 13px;
+    }
+    .phone {
+        font-size: 10px;
+    }
+    .website {
+        font-size: 10px;
+    }
+    .payment {
+        font-size: 10px;
+    }
+    .payment p {
+        margin-top: 15px;
+    }
+    .tex {
+        font-size: 10px;
+    }
+    .tex h3 {
+        font-size: 10px;
+    }
+    .tex p {
+        margin: 8px;
+    }
+    .date {
+        font-size: 10px;
+    }
+    .date h4 {
+        margin-left: 35px;
+    }
+    .bill {
+        font-size: 10px;
+    }
+    .bill h4 {
+        margin: 0;
+        display: flex;
+    }
+    h4 span {
+        margin-left: 36px;
+    }
+    .h3 {
+        font-size: 11px;
+    }
+    .place {
+        margin-top: 62px;
+        font-size: 10px;
+    }
+    .place h4 {
+        margin-left: 7px;
+    }
+    .price_table thead tr {
+        font-size: 10px;
+    }
+    .tbody tr td {
+        font-size: 9px;
+    }
+    .text .old .old1 {
+        font-size: 10px;
+    }
+    .Warranty {
+        font-size: 10px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
 }
