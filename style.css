@@ -165,13 +165,13 @@ tbody .total{
 }
 @media screen  and (max-width: 1246px){
     .main_box .box1 {
-        margin-right: 0;
+        margin-right: 27px;
        
     }
 }
-@media screen  and (max-width: 546px){
+@media screen  and (min-width: 416px) and (max-width: 546px){
     .main_container {
-        margin: 8% 4%;
+        margin: 8% 1%;
     }
     .main_box .box1 {
         margin-left: 1px;
