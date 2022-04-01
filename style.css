@@ -5,6 +5,8 @@
 }
 .container{
     border: 1px solid black;
+    box-sizing: border-box;
+    overflow: auto;
 }
 .main_box{
     display: flex;
@@ -276,12 +278,25 @@ tbody .total{
         font-size: 12px;
     }
 }
+/* @media screen  and (max-width: 416px){
+   
+} */
 @media screen  and (max-width: 416px){
+    .main_box .box1 {
+        /* margin-right: 27px; */
+        margin-left: 1px;
+    }
     .main_container {
         margin: 0;
     }
-}
-@media screen  and (max-width: 393px){
+    .img {
+        width: 100px;
+    }
+    .amount h3 {
+        font-size: 12px;
+        margin-top: 8px;
+        margin-bottom: 3px;
+    }
     .gst p {
         font-size: 10px;
     }
@@ -332,7 +347,7 @@ tbody .total{
         display: flex;
     }
     h4 span {
-        margin-left: 36px;
+        margin-left: 11px;
     }
     .h3 {
         font-size: 11px;
