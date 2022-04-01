@@ -298,40 +298,44 @@ tbody .total{
         margin-bottom: 3px;
     }
     .gst p {
-        font-size: 10px;
+        font-size: 3vw;
     }
     .office {
-        font-size: 10px;
+        font-size: 3vw;
     }
     .address {
-        font-size: 10px;
+        font-size: 3vw;
     }
     .email {
-        font-size: 10px;
+        font-size: 3vw;
     }
     .email p {
-        font-size: 13px;
+        font-size: 3vw;
+        margin: 0;
     }
     .phone {
         font-size: 10px;
     }
     .website {
-        font-size: 10px;
+        font-size: 3vw;
+    }
+    .website p {
+        margin: 0.5vw;
     }
     .payment {
-        font-size: 10px;
+        font-size: 3vw;
     }
     .payment p {
-        margin-top: 15px;
+        margin-top: 3vw;
     }
     .tex {
-        font-size: 10px;
+        font-size: 3vw;
     }
     .tex h3 {
-        font-size: 10px;
+        font-size: 2.4vw;
     }
     .tex p {
-        margin: 8px;
+        margin: 1.2vw;
     }
     .date {
         font-size: 10px;
@@ -366,10 +370,15 @@ tbody .total{
         font-size: 9px;
     }
     .text .old .old1 {
-        font-size: 10px;
+        font-size: 2.2vw;
     }
+
     .Warranty {
-        font-size: 10px;
+        font-size: 2.2vw;
+    }
+    .police {
+       
+        font-size: 4vw;
     }
     .copyright {
         font-size: 10px;
